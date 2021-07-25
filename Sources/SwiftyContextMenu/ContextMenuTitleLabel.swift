@@ -4,7 +4,9 @@
 //
 //  Created by Paul Bancarel on 28/11/2020.
 //
+import UIKit
 
+@available(iOS 10.0, *)
 class ContextMenuTitleLabel: UILabel {
     
     private let style: ContextMenuUserInterfaceStyle

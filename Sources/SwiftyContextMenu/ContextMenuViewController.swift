@@ -7,11 +7,13 @@
 
 import UIKit
 
+@available(iOS 10.0, *)
 protocol ContextMenuViewControllerDelegate: class {
 
     func contextMenuViewControllerDidDismiss(_ contextMenuViewController: ContextMenuViewController)
 }
 
+@available(iOS 10.0, *)
 class ContextMenuViewController: UIViewController {
 
     private let contextMenu: ContextMenu
@@ -223,6 +225,7 @@ class ContextMenuViewController: UIViewController {
     }
 }
 
+@available(iOS 10.0, *)
 extension ContextMenuViewController: UITableViewDataSource, UITableViewDelegate {
 
     // MARK: - UITableViewDataSource

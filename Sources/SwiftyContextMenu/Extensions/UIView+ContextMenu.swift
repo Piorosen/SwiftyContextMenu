@@ -13,6 +13,7 @@ private struct ContextMenuAssociatedObjectKey {
     static var contextMenuGestureRecognizers = "ContextMenu.GestureRecognizers"
 }
 
+@available(iOS 10.0, *)
 extension UIView {
 
     var contextMenu: ContextMenu? {

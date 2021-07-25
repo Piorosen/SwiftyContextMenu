@@ -4,7 +4,9 @@
 //
 //  Created by Paul Bancarel on 28/11/2020.
 //
+import UIKit
 
+@available(iOS 10.0, *)
 class IntensityVisualEffectView: UIVisualEffectView {
 
     private var animator: UIViewPropertyAnimator!
@@ -32,6 +34,7 @@ class IntensityVisualEffectView: UIVisualEffectView {
         effect = nil
         apply(intensity: intensity)
     }
+    
     
     private func apply(intensity: CGFloat) {
         animator = UIViewPropertyAnimator(duration: 1, curve: .linear) { [unowned self] in self.effect = _effect }

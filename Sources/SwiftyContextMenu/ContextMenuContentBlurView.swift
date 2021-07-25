@@ -4,7 +4,9 @@
 //
 //  Created by Paul Bancarel on 29/11/2020.
 //
+import UIKit
 
+@available(iOS 10.0, *)
 class ContextMenuContentBlurView: ContextMenuBlurView {
     
     override class var intensity: CGFloat { 1.0 }

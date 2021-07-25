@@ -105,6 +105,7 @@ struct ContextMenuSourceViewInfo {
 
 public protocol ContextMenuSourceView: UIView { }
 
+@available(iOS 10.0, *)
 extension UIView: ContextMenuSourceView {
 
     public func addContextMenu(_ contextMenu: ContextMenu, for events: ContextMenuEvent...) {

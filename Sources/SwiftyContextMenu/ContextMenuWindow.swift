@@ -6,7 +6,9 @@
 //
 
 import Foundation
+import UIKit
 
+@available(iOS 10.0, *)
 class ContextMenuWindow: UIWindow, ContextMenuViewControllerDelegate {
 
     private var onDismiss: (() -> Void)?
